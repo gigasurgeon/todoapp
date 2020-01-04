@@ -1,0 +1,1 @@
+alert("mushi mushi"); 

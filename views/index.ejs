@@ -1,19 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script src="/js/my.js"></script>
   <title>
     Todo App
     </title>
-    <link href="/assets/style.css" rel="stylesheet" type="text/css">
-    </link>
+    <link href="style.css" rel="stylesheet" type="text/css"></link>
+    <script src="jquery-3.4.1.js"></script>
+    <script type="text/javascript" src="todo.js"></script>
 </head>
 <body>
 
-<form action="" method="POST">
+<form id="user_form">
 <input type="text" name="user_input" placeholder="enter a todo..." align:"center">
-<input type="submit" name="submit_button" value="entry">
+<input id="click_button" type="submit" text="add item"></submit>
 </form>
 
   <ul>
@@ -22,5 +21,7 @@
     <li> <%= todos[i] %> </li>
     <% }; %>
   </ul>
+
 </body>
+
 </html>
